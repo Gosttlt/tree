@@ -66,11 +66,6 @@ const fileTreeSlice = createSlice({
             ],
         },
     },
-    reducers: {
-        // removeTodos(state) {
-        //     state.todos.pop()
-        // }
-    },
     extraReducers: {
         [fetchFiles.pending]: (state) => {
             state.loadingStatus = true
